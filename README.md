@@ -18,6 +18,7 @@ composer require aiur18/ipvader "dev-master"
 Copy the needed files, configuration and setup the weathermod
 
 ```
+rsync -av vendor/aiur18/ipvader/.anax/ .anax/
 rsync -av vendor/aiur18/ipvader/config/ config/
 rsync -av vendor/aiur18/ipvader/src/ src/
 rsync -av vendor/aiur18/ipvader/test/ test/
@@ -33,12 +34,14 @@ rsync -av vendor/aiur18/ipvader/REVISION.md ./
 ```
 
 
-
 Dependency
 ------------------
 
 This is a Anax modulen and primarly intended to be used together with the Anax framework.
-
+Run the following script.
+```
+./.anax/scaffold/postprocess.bash
+```
 
 
 License
