@@ -12,13 +12,13 @@ This is how you install the module into an existing Anax installation.
 Install using composer.
 
 ```
-composer require aiur18/ipweathermodule "dev-master"
+composer require aiur18/ipvader "dev-master"
 ```
 
 Copy the needed files, configuration and setup the weathermod
 
 ```
-rsync -av vendor/aiur18/ipweathermodule/ ./
+rsync -av vendor/aiur18/ipvader/ ./
 ```
 
 
